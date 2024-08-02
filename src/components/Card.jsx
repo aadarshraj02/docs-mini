@@ -22,7 +22,7 @@ const Card = ({ data }) => {
           </div>
           {data.tag.isOpen ? (
             <div className="w-full py-4 bg-green-600 flex items-center justify-center">
-              <h3 className="text-sm font-semibold">Download Now</h3>
+              <h3 className="text-sm font-semibold">{data.tag.tagTitle}</h3>
             </div>
           ) : null}
         </div>
