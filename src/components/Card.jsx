@@ -8,6 +8,7 @@ const Card = () => {
         <p className="text-sm mt-5 font-semibold leading-tight">
           Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
+        <div className="absolute bottom-0 left-0 w-full h-20"></div>
       </div>
     </div>
   );
