@@ -37,7 +37,7 @@ const Foreground = () => {
 
   return (
     <div>
-      <div className="fixed top-0 left-0 z-20 w-full h-full">
+      <div className="fixed top-0 left-0 z-20 w-full h-full flex gap-5 flex-wrap">
         {data.map((item, index) => (
           <Card key={index} data={item} />
         ))}
