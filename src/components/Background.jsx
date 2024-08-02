@@ -1,6 +1,6 @@
 const Background = () => {
   return (
-    <div>
+    <div className="fixed z-10 w-full h-screen">
       <div className="w-full py-10 flex justify-center text-zinc-500 font-semibold text-xl absolute top[5%]">
         Documents.
       </div>
