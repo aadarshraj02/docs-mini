@@ -6,7 +6,7 @@ const Foreground = () => {
     {
       desc: "  Lorem ipsum dolor sit amet consectetur adipisicing.",
       fileSize: "0.8mb",
-      close: true,
+      close: false,
       tag: {
         isOpen: true,
         tagTitle: "Download Now",
@@ -18,7 +18,7 @@ const Foreground = () => {
       fileSize: "0.8mb",
       close: true,
       tag: {
-        isOpen: true,
+        isOpen: false,
         tagTitle: "Download Now",
         tagColor: "green",
       },
@@ -29,8 +29,8 @@ const Foreground = () => {
       close: true,
       tag: {
         isOpen: true,
-        tagTitle: "Download Now",
-        tagColor: "green",
+        tagTitle: "Upload",
+        tagColor: "red",
       },
     },
   ];
