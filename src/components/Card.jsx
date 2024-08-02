@@ -1,10 +1,11 @@
 import { FaRegFileAlt } from "react-icons/fa";
 import { LuDownload } from "react-icons/lu";
 import { IoMdCloseCircleOutline } from "react-icons/io";
+import { motion } from "framer-motion";
 
 const Card = ({ data }) => {
   return (
-    <div>
+    <motion.div drag>
       <div className="relative w-60 h-72 rounded-[30px] px-5 py-10 bg-zinc-900/90 text-white overflow-hidden">
         <FaRegFileAlt />
         <p className="text-sm mt-5 font-semibold leading-tight">{data.desc}</p>
@@ -29,7 +30,7 @@ const Card = ({ data }) => {
           ) : null}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
