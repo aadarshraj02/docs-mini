@@ -19,7 +19,7 @@ const Foreground = () => {
     <div>
       <div className="fixed top-0 left-0 z-20 w-full h-full">
         {data.map((item, index) => (
-          <Card key={index} />
+          <Card key={index} data={item} />
         ))}
       </div>
     </div>
